@@ -1,0 +1,93 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    background: url("../img/image.png") no-repeat center/cover;
+    height: 100vh;
+}
+
+/*header start*/
+.header h4 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 35px;
+}
+
+#header {
+    padding: 30px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*header end*/
+/*work start*/
+#work {
+    padding: 180px 0;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my {
+    font-size: 140px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.program {
+    color: white;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 450;
+    line-height: normal;
+    font-style: normal;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 9px 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px solid white;
+    margin: 60px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+/*work end*/
